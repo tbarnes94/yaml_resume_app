@@ -1,8 +1,12 @@
 .resume {
+    font-family: 'Segoe UI';
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
 }
   
 .resume-header {
@@ -15,6 +19,7 @@
 }
 
 .resume-body {
+    font-size: 10pt;
     text-align: left;
     align-items: flex-start;
     justify-content: top;

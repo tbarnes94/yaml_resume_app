@@ -21,7 +21,7 @@ export default class Section extends React.Component {
     return (
       <div className={`section ${this.props.section.section_type}`}>
         <><hr/></>
-        <div className="title">{this.props.section.section_name}</div>
+        <div className="title">{this.props.section.section_name[0].toUpperCase() + this.props.section.section_name.substring(1).toLowerCase()}</div>
         { this.props.section.details ?
           this.props.section.details.map((detail, ndx) => { 
             switch(detail.detail_type) {
