@@ -1,0 +1,76 @@
+resume:
+  - name:
+    - first: 'Thomas'
+      last: 'Barnes'
+      middle: 'Jonathan'
+  - email: 'thomas.jonathan.barnes@gmail.com'
+  - options:
+    - 'U.S. Secret Clearance'
+    - '(773) 653-6581'
+  - sections:
+    - section_name: 'experience'
+      section_type: 'experience'
+      details:
+        - detail_name: 'role_1'
+          detail_type: 'role'
+          role: 'Associate Developer Consultant I & II'
+          company: 'Microsoft'
+          team: 'Development Advisory Services for Azure'
+          city: 'Atlanta'
+          state: 'GA'
+          start_month: 'February 2017'
+          end_month: 'present'
+          bullets:
+            - 'Acted both as a DevOps Administrator and Business Analyst for a large digital transformation effort in the healthcare industry, estimating work items using Scrum methodology and configuring several project backlogs in Azure DevOps'
+            - 'Developed, maintained, and delivered workshops covering the use of Angular, Git, Bot Framework Azure DevOps, Azure DevTest Labs, and Azure ML Studio to enterprise customers spanning skill levels from zero knowledge to advanced topics'
+            - 'Designed Proof-of-Concept (PoC) applications in Angular and NodeJS to get customers started on their projects'
+            - 'Wrote sample code in Angular used by thousands of attendees at a client’s annual technology hackathon in Paris, France'
+            - 'Assisted in crafting a customer-facing bot hosted on a mature cloud environment in Azure for a prominent car manufacturer'
+        
+        - detail_name: 'role_2'
+          detail_type: 'role'
+          role: 'Software Development Intern'
+          company: 'TransMarket Group L.L.C.'
+          team: 'Business Development'
+          city: 'Chicago'
+          state: 'IL'
+          start_month: 'May 2016'
+          end_month: 'August 2016'
+          bullets:
+            - 'Acted as a Product Manager for recruiting software features'
+            - 'Co-built an in-house applicant tracking system, which utilized a Django Python back-end (hosted on AWS)'
+            - 'Conducted market research to add to and improve planned recruiting software functionality'
+            - 'Created and handled social media accounts, updating regularly to generate a following and to display company events'
+            - 'Designed several brochures and advertisements for company recruiting events in Adobe Photoshop'
+            - 'Co-designed an updated company website via Square Space and custom JavaScript/CSS features'
+
+        - detail_name: 'role_3'
+          detail_type: 'role'
+          role: 'Research Co-op'
+          company: 'Georgia Tech Research Institute'
+          team: 'Foreign Military Sales (FMS)'
+          city: 'Atlanta'
+          state: 'GA'
+          start_month: 'September 2013'
+          end_month: 'July 2015'
+          bullets:
+            - 'Designed ten Python scripts and tools to expedite related research steps'
+            - 'Two tools used to swap around bus data in DataSIMs and generate AltaView Protocol files respectively'
+            - 'Compiled software presentations that demonstrated functionality before coding began to minimize company spending'
+            - 'Wrote an application in C# that packaged together the functionality of the Python scripts mentioned above'
+
+    - section_name: 'projects'
+      section_type: 'projects'
+      details:
+
+    - section_name: 'skills'
+      section_type: 'skills'
+      details:
+
+    - section_name: 'education'
+      section_type: 'education'
+      details:
+
+    - section_name: 'activities'
+      section_type: 'activities'
+      details:

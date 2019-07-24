@@ -1,0 +1,26 @@
+.resume {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5em;
+}
+  
+.resume-header {
+    align-items: center;
+    justify-content: top;
+}
+
+.big-text {
+    font-size: calc(10px + 2vmin);
+}
+
+.resume-body {
+    text-align: left;
+    align-items: flex-start;
+    justify-content: top;
+}
+
+.name {
+    color: teal;
+    margin: 0;
+}
