@@ -3,14 +3,17 @@
     {
       "name": [
         {
-          "first": "Thomas",
+          "middle": "Jonathan",
           "last": "Barnes",
-          "middle": "Jonathan"
+          "first": "Thomas"
         }
       ]
     },
     {
       "email": "thomas.jonathan.barnes@gmail.com"
+    },
+    {
+      "headshot_url": "https://i.imgur.com/kOs1LAu.jpg?1"
     },
     {
       "options": [
@@ -21,11 +24,10 @@
     {
       "sections": [
         {
+          "section_type": "experience",
+          "section_name": "experience",
           "details": [
             {
-              "city": "Atlanta",
-              "detail_type": "role",
-              "team": "Development Advisory Services for Azure",
               "bullets": [
                 "Acted both as a DevOps Administrator and Business Analyst for a large digital transformation effort in the healthcare industry, estimating work items using Scrum methodology and configuring several project backlogs in Azure DevOps",
                 "Developed, maintained, and delivered workshops covering the use of Angular, Git, Bot Framework Azure DevOps, Azure DevTest Labs, and Azure ML Studio to enterprise customers spanning skill levels from zero knowledge to advanced topics",
@@ -33,17 +35,17 @@
                 "Wrote sample code in Angular used by thousands of attendees at a client's annual technology hackathon in Paris, France",
                 "Assisted in crafting a customer-facing bot hosted on a mature cloud environment in Azure for a prominent car manufacturer"
               ],
-              "company": "Microsoft",
-              "state": "GA",
-              "start_month": "February 2017",
-              "end_month": "present",
               "role": "Associate Developer Consultant I & II",
-              "detail_name": "role_1"
+              "detail_name": "role_1",
+              "detail_type": "role",
+              "team": "Development Advisory Services for Azure",
+              "state": "GA",
+              "company": "Microsoft",
+              "end_month": "present",
+              "city": "Atlanta",
+              "start_month": "February 2017"
             },
             {
-              "city": "Chicago",
-              "detail_type": "role",
-              "team": "Business Development",
               "bullets": [
                 "Acted as a Product Manager for recruiting software features",
                 "Co-built an in-house applicant tracking system, which utilized a Django Python back-end (hosted on AWS)",
@@ -52,53 +54,113 @@
                 "Designed several brochures and advertisements for company recruiting events in Adobe Photoshop",
                 "Co-designed an updated company website via Square Space and custom JavaScript/CSS features"
               ],
-              "company": "TransMarket Group L.L.C.",
-              "state": "IL",
-              "start_month": "May 2016",
-              "end_month": "August 2016",
               "role": "Software Development Intern",
-              "detail_name": "role_2"
+              "detail_name": "role_2",
+              "detail_type": "role",
+              "team": "Business Development",
+              "state": "IL",
+              "company": "TransMarket Group L.L.C.",
+              "end_month": "August 2016",
+              "city": "Chicago",
+              "start_month": "May 2016"
             },
             {
-              "city": "Atlanta",
-              "detail_type": "role",
-              "team": "Foreign Military Sales (FMS)",
               "bullets": [
                 "Designed ten Python scripts and tools to expedite related research steps",
                 "Two tools used to swap around bus data in DataSIMs and generate AltaView Protocol files respectively",
                 "Compiled software presentations that demonstrated functionality before coding began to minimize company spending",
                 "Wrote an application in C# that packaged together the functionality of the Python scripts mentioned above"
               ],
-              "company": "Georgia Tech Research Institute",
-              "state": "GA",
-              "start_month": "September 2013",
-              "end_month": "July 2015",
               "role": "Research Co-op",
-              "detail_name": "role_3"
+              "detail_name": "role_3",
+              "detail_type": "role",
+              "team": "Foreign Military Sales (FMS)",
+              "state": "GA",
+              "company": "Georgia Tech Research Institute",
+              "end_month": "July 2015",
+              "city": "Atlanta",
+              "start_month": "September 2013"
             }
-          ],
-          "section_type": "experience",
-          "section_name": "experience"
+          ]
         },
         {
-          "details": null,
           "section_type": "projects",
-          "section_name": "projects"
+          "section_name": "projects",
+          "details": [
+            {
+              "bullets": [
+                "An incremental project in my Knowledge-based AI course. Written in Python, an intelligent agent that uses given black and white images of basic to complex shapes to derive patterns in an image matrix in order to solve for a missing image"
+              ],
+              "end_month": "April 2019",
+              "detail_type": "project",
+              "detail_name": "project_1",
+              "project_url": "https://www.github.com/tbarnes94/RPM-Intelligent-Agent",
+              "start_month": "January 2019",
+              "project": "Raven's Progressive Matrices Intelligent Agent"
+            },
+            {
+              "bullets": [
+                "A Discord bot written in TypeScript that scrapes an HTML wiki page containing a frequently updated list of weapon assets and statistics datamined from the game Fortnite to provide insights via commands in the Discord chat interface. The statistics are saved to the bot location as JSONs daily to prevent stale results. A web crawler was necessary because no API is exposed with this information. The problem this solves is quick statistical weapon lookups while one is playing the game"
+              ],
+              "end_month": "September 2018",
+              "detail_type": "project",
+              "detail_name": "project_2",
+              "project_url": "https://www.github.com/tbarnes94/fortnite-weapons-bot",
+              "start_month": "March 2018",
+              "project": "Fortnite Armory (deprecated)"
+            }
+          ]
         },
         {
-          "details": null,
           "section_type": "skills",
-          "section_name": "skills"
+          "section_name": "skills",
+          "details": [
+            {
+              "detail_name": "skill_group_1",
+              "detail_type": "skill_group",
+              "skills": [
+                {
+                  "skill": "Python",
+                  "mastery": "3"
+                },
+                {
+                  "skill": "Angular",
+                  "mastery": "2"
+                },
+                {
+                  "skill": "React",
+                  "mastery": "2"
+                },
+                {
+                  "skill": ".NET",
+                  "mastery": "2"
+                },
+                {
+                  "skill": "C++",
+                  "mastery": "2"
+                },
+                {
+                  "skill": "Java",
+                  "mastery": "2"
+                },
+                {
+                  "skill": "Go",
+                  "mastery": "1"
+                }
+              ],
+              "skill_group": "technical"
+            }
+          ]
         },
         {
-          "details": null,
           "section_type": "education",
-          "section_name": "education"
+          "section_name": "education",
+          "details": null
         },
         {
-          "details": null,
           "section_type": "activities",
-          "section_name": "activities"
+          "section_name": "activities",
+          "details": null
         }
       ]
     }

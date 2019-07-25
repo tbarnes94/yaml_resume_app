@@ -4,6 +4,7 @@ resume:
       last: 'Barnes'
       middle: 'Jonathan'
   - email: 'thomas.jonathan.barnes@gmail.com'
+  - headshot_url: 'https://i.imgur.com/kOs1LAu.jpg?1'
   - options:
     - 'U.S. Secret Clearance'
     - '(773) 653-6581'
@@ -62,10 +63,55 @@ resume:
     - section_name: 'projects'
       section_type: 'projects'
       details:
+        - detail_name: 'project_1'
+          detail_type: 'project'
+          project: 'Raven''s Progressive Matrices Intelligent Agent'
+          project_url: 'https://www.github.com/tbarnes94/RPM-Intelligent-Agent'
+          start_month: 'January 2019'
+          end_month: 'April 2019'
+          bullets:
+            - 'An incremental project in my Knowledge-based AI course. Written in Python, an intelligent agent that uses given black and white images of basic 
+            to complex shapes to derive patterns in an image matrix in order to solve for a missing image'
+
+        - detail_name: 'project_2'
+          detail_type: 'project'
+          project: 'Fortnite Armory (deprecated)'
+          project_url: 'https://www.github.com/tbarnes94/fortnite-weapons-bot'
+          start_month: 'March 2018'
+          end_month: 'September 2018'
+          bullets:
+            - 'A Discord bot written in TypeScript that scrapes an HTML wiki page containing a frequently updated list of weapon assets 
+            and statistics datamined from the game Fortnite to provide insights via commands in the Discord chat interface. The statistics 
+            are saved to the bot location as JSONs daily to prevent stale results. A web crawler was necessary because no API is exposed 
+            with this information. The problem this solves is quick statistical weapon lookups while one is playing the game'
 
     - section_name: 'skills'
       section_type: 'skills'
       details:
+        - detail_name: 'skill_group_1'
+          detail_type: 'skill_group'
+          skill_group: 'technical'
+          skills:
+            - skill: 'Python'
+              mastery: '3'
+            
+            - skill: 'Angular'
+              mastery: '2'
+            
+            - skill: 'React'
+              mastery: '2'
+            
+            - skill: '.NET'
+              mastery: '2'
+            
+            - skill: 'C++'
+              mastery: '2'
+
+            - skill: 'Java'
+              mastery: '2'
+              
+            - skill: 'Go'
+              mastery: '1'
 
     - section_name: 'education'
       section_type: 'education'

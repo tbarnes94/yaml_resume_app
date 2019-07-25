@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .App-logo {
@@ -28,4 +32,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body, h1, h2, h3, ol, ul, div {
+  line-height: normal;
+  line-break: strict;
+  border: 0;
+  padding: 0;
+  position: static;
+  overflow: visible;
 }

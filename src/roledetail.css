@@ -3,5 +3,32 @@
 }
 
 .bullet-text {
-    font-size: 9pt;
+    font-size: 10pt;
+}
+
+.container {
+    display: flex;
+    flex-direction: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.leftblock {
+    margin: auto;
+    margin-left: 0;
+    width: 80%;
+    line-break: auto;
+}
+
+.rightblock {
+    margin-left: 0;
+    width: 15%!;
+}
+
+.headshot {
+    height: 250px;
+    width: 250px!;
+    background-color: teal;
+    padding: 10px;
+    margin: auto;
 }
