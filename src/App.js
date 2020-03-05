@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <Resume
       ></Resume>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     </div>
   );
 }
