@@ -1,6 +1,7 @@
 import React from 'react';
 import RoleDetail from './roledetail';
 import ProjectDetail from './projectdetail';
+import SkillDetail from './skilldetail';
 import './section.css';
 
 export default class Section extends React.Component {
@@ -44,6 +45,15 @@ export default class Section extends React.Component {
                     >
                       Project failed to load.
                     </ProjectDetail>
+                  )
+                case 'skill_group':
+                  return (
+                    <SkillDetail
+                      key={`${this.props.section.section_name}_skill_${ndx}`}
+                      detail={detail}
+                    >
+                      Skill failed to load.
+                    </SkillDetail>
                   )
                 default:
                   return null
